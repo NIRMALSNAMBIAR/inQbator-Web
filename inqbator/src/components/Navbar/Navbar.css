@@ -1,0 +1,119 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Ropa+Sans&display=swap');
+
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Ropa Sans', sans-serif; */
+  html {
+    text-size-adjust: none;
+    font-size: 16px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  a {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+  }
+
+  /* Main nav container  */
+  nav {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: space-between;
+      background: #000;
+      color: white;
+      padding: 1.4rem 5.08rem;
+      width: 100%;
+      height: 5.9rem;
+
+  }
+
+  /*--------------- logo----------------  */
+  .navbar__logo {
+      display: flex;
+      align-items: flex-start;
+      cursor: pointer;
+  }
+
+  .navbar__logo-img {
+      width: 3.40388rem;
+      height: 3.11925rem;
+  }
+
+  .navbar__logo>img {
+      height: fit-content;
+      width: fit-content;
+  }
+
+  .navbar__logo-text {
+      color: #FFF;
+      font-size: 2.9375rem;
+      font-weight: 400;
+  }
+
+  .navbar__logo-text>span {
+      background-image: linear-gradient(to bottom, #6F57D8, #D56A8F);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-family: 'Ropa Sans', sans-serif;
+
+      font-size: 2.9375rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+
+  /* navbar menu items  */
+  .navbar__menu {
+      margin-left: 4.37rem;
+  }
+
+  .navbar__menu ul {
+      display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .navbar__menu li {
+      margin-right: 1.74rem;
+      cursor: pointer;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.0625rem;
+      font-weight: 600;
+  }
+
+  .active {
+      background-image: linear-gradient(to bottom, #6F57D8, #D56A8F);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+  }
+
+
+  /* login / signup button */
+  .navbar__auth {
+      background: linear-gradient(180deg, #52409E 0%, rgba(111, 87, 216, 0.73) 0.01%);
+      border-radius: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      width: 10.6875rem;
+      height: 2.875rem;
+      flex-shrink: 0;
+  }
+
+  .navbar_auth-text {
+      color: #FFF;
+      font-size: 1.125rem;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+  }
