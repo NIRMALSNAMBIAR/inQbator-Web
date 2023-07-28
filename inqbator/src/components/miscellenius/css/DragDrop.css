@@ -1,0 +1,122 @@
+
+/* -----------------startup__upload------------------- */
+.file-dropzone>i {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.file-dropzone>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0.5rem 0 0.1rem 0;
+}
+
+.file-dropzone>p {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.file-dropzone>div {
+    display: inline-flex;
+    padding: 0.25rem 1.375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1.4375rem;
+    border: 1px solid #FFF;
+    margin: 0.28rem 0 0.3rem 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.6875rem;
+    font-weight: 300;
+    transition: background-color 0.5s;
+}
+.file-dropzone>div:hover {
+    background: linear-gradient(111deg, #6F57D8 14.06%, #D56A8F 93.75%);
+    transition: background-color 0.5s;
+}
+
+.file-dropzone>input {
+    display: none;
+}
+
+.file-upload-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #7D59CC;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    min-height: 13.12rem;
+    position: relative;
+}
+
+.file-dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.file-dropzone span {
+    margin-bottom: 10px;
+}
+
+.file-dropzone.loading {
+    background-color: #444;
+}
+
+.file-dropzone.uploaded {
+    background-color: rgb(10, 10, 10);
+}
+
+.file-dropzone.error {
+    background-color: rgb(88, 8, 8);
+}
+
+.loading-indicator,
+.uploaded-message,
+.error-message {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.dragdrop__message{
+    position: absolute;
+    bottom: 20px;
+}
+
+.loading-indicator {
+    color: #fff;
+    white-space: nowrap;
+}
+
+.uploaded-message {
+    position: absolute;
+    color: rgb(19, 142, 19);
+    white-space: nowrap;
+}
+
+.error-message {
+    color: rgb(161, 34, 34);
+    white-space: nowrap;
+}
+
+
+/* -----------------startup__upload------------------- */
+

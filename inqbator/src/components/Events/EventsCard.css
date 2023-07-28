@@ -1,0 +1,244 @@
+.eventcard {
+    width: 25.4375rem;
+    height: 30.125rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: linear-gradient(180deg, rgba(113, 79, 180, 0.60) 0%, rgba(28, 17, 32, 0.60) 100%);
+    padding: 1.38rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+/* --------------eventcard top heading--------------- */
+.eventcard__tophead {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.eventcard__tophead>img {
+    height: 1.4713rem;
+    margin-right: 0.2rem;
+}
+
+.eventcard__tophead>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* ------------------eventcard bio----------------- */
+.eventcard__bio {
+    width: 22.6875rem;
+    height: 10.9375rem;
+    border-radius: 0.3125rem;
+    background: #DE6C87;
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+.eventcard__bio-img {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.62rem;
+    width: 5.625rem;
+    height: 5.625rem;
+    border-radius: 10.6875rem;
+    box-shadow: 4px 4px 70px 1px rgba(0, 0, 0, 0.50);
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.eventcard__bio-img>img {
+    height: 8.625rem;
+}
+
+.eventcard__bio>h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-weight: 400;
+    width: 12rem;
+    margin: 0.75rem 0 0 0.62rem;
+}
+
+.eventcard__bio>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem;
+    width: 13rem;
+    margin: 0 0 0.69rem 0.62rem;
+}
+
+.eventscard__bio-bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 2.375rem;
+}
+
+.eventscard__bio-bottom1 {
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 9.625rem;
+    height: 2.375rem;
+    margin-right: -1.3rem;
+    padding: 0.3rem 0.62rem;
+}
+
+.eventscard__bio-bottom1>h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: .05rem;
+}
+
+.eventscard__bio-bottom1>h3>span {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.eventscard__bio-bottom2 {
+    min-width: 8.25rem;
+    border-radius: 0.3125rem;
+    background: #E7E6E8;
+    height: 100%;
+    padding: 0.3rem 0.62rem;
+}
+
+.eventscard__bio-bottom2>h3 {
+    color: #06050C;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.eventscard__bio-bottom2>p {
+    color: #05050A;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+
+/* --------------event card h1 -------- */
+.eventcard>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5625rem;
+    width: 21.0625rem;
+    margin-top: 1.25rem;
+}
+
+
+/* -------------eventcard__mentor--------------- */
+.eventcard__mentor {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.94rem;
+}
+
+.eventcard__mentor-img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 10.6875rem;
+    box-shadow: 4px 4px 70px 1px rgba(0, 0, 0, 0.50);
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    margin-right: .8rem;
+}
+
+.eventcard__mentor-img>img {
+    width: 3.125rem;
+}
+
+.eventcard__mentor-text {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.eventcard__mentor-text>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5625rem;
+}
+
+.eventcard__mentor-text>p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5625rem;
+}
+
+/* ------------eventcard button ----------------- */
+.eventcard__btn {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.75rem;
+}
+
+.eventcard__btn-time {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.eventcard__btn-time>h1 {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0 1rem 0 .5rem;
+}
+
+.eventcard__btn-main {
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 0.625rem;
+    border: 1px solid #7A58CD;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: .5rem .9rem;
+    transition: background-color 0.5s ease-in-out;
+    cursor: pointer;
+}
+.eventcard__btn-main:hover{
+    border: 1px solid #7A58CD;
+    color: #FFF;
+    background-color: #DE6C87;
+    transition: background-color 0.5s ease-in;
+}

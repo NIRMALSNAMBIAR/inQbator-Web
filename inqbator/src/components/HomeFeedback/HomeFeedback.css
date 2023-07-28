@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&family=Ropa+Sans&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ropa Sans', sans-serif; */
+.homefeedback__main {
+    height: 529px;
+    width: 100%;
+    background: #000;
+    padding: 45px 76px;
+}
+
+.homefeedback {
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(#000000 0 0) padding-box,
+        linear-gradient(to bottom, #6F57D8, #D56A8F) border-box;
+    border: 3px solid transparent;
+    border-radius: 24px;
+    box-shadow: 3px 2px 2px 0px #000;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 61px 39px 69px;
+}
+
+.homefeedback__left {
+    /* border: 1px solid greenyellow; */
+    width: 500px;
+    height: 375px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.homefeedback__left>h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.homefeedback__left>input {
+    width: 501px;
+    height: 43px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: #EAEAEA;
+    margin-bottom: 14px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    padding: 11px 20px;
+}
+
+.homefeedback__left>textarea {
+    width: 501px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-family: 'Inter', sans-serif;
+    background: #EAEAEA;
+    outline: none;
+    padding: 11px 20px;
+}
+.homefeedback__submit{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 501px;
+}
+.homefeedback__submit > p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+.homefeedback__submit>div {
+    height: 43px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.homefeedback__submit>div>p {
+    color: black;
+    background: linear-gradient(111deg, #6F57D8 14.06%, #D56A8F 93.75%);
+    width: 147px;
+    height: 40px;
+    border-radius: 40px;
+    background: linear-gradient(180deg, #7A59CD 0%, #BB65A0 96.88%);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}

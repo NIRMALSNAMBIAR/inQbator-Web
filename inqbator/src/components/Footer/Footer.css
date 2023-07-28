@@ -1,0 +1,118 @@
+.footer__main {
+    max-width: 100%;
+    min-height: 852px;
+    background: #000;
+    padding: 55px 76px 0 76px;
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer__text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+/* ------------- left side -------------  */
+.footer__left {
+    width: 493px;
+    height: 100%;
+    margin-right: 73px;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 13px;
+}
+.footer__logo > img {
+    height: 4rem;
+}
+
+.footer__left>p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 44px;
+}
+
+.footer_social {
+    margin-bottom: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.footer_social>p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 26px;
+}
+
+.footer_social>a {
+    margin-right: 38px;
+}
+
+.footer__left>h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* -------------- right side -------------- */
+.footer__right {
+    /* border: 1px solid gainsboro; */
+    flex-basis: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.footer__links{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    margin-right: 42px;
+}
+.footer__links>h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.footer__links>a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px;
+}
+.footer__resources{
+    margin-right: 154px;
+}
+
+/* ------------------ bottom --------------- */
+.footer__mainImage {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}

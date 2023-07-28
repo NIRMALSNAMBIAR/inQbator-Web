@@ -1,0 +1,295 @@
+/* .mentor__container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(33, 28, 43), rgb(0, 0, 0));
+} */
+.mentor {
+    background-color: black;
+    color: white;
+    padding: 1.4rem 5.08rem;
+    max-width: 100%;
+    max-height: 100vh;
+    background-image: url(../../../public/assets/mentor-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* -------------mentor nav--------------- */
+.mentor__nav-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.mentor__nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 80rem;
+}
+
+.mentor__nav>div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem 1rem;
+    border-radius: 0.9375rem;
+    border: 1px solid #FFF;
+    transition: background-color ease-in-out .3s;
+    cursor: pointer;
+}
+
+.mentor__nav>div:hover {
+    transition: background-color ease-in-out .3s;
+    background-color: #363636;
+}
+
+.mentor__nav>div>p {
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    margin-right: .4rem;
+}
+
+/* -------------mentor Heading--------------- */
+.mentor__head {
+    display: grid;
+    place-items: center;
+    max-width: 100vw;
+    min-height: 90vh;
+}
+
+.mentor__head>div {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.mentor__head>div>h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 5px 5px 15px 0px rgba(255, 255, 255, 0.25);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 1.7rem;
+}
+
+.mentor__head>div>p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 80rem;
+}
+
+.mentor__head>div>div {
+    border: 1px solid #DE6C87;
+    display: flex;
+    width: 13.6875rem;
+    padding: 0.8125rem 0.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3125rem;
+    border-radius: 0.625rem;
+    margin-top: 1.7rem;
+    transition: background-color ease-in-out .5s;
+    transition: color ease-in .3s;
+    cursor: pointer;
+}
+
+.mentor__head>div>div:hover {
+    background-color: white;
+    border: 1px solid #DE6C87;
+    color: #DE6C87;
+    transition: color ease-in .3s;
+}
+
+/* ---------------body----------------- */
+.mentor__body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(33, 28, 43), rgb(0, 0, 0));
+    min-height: 100%;
+    padding: 1.4rem 5.08rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+/* ----------------Mentor What---------------- */
+.mentor__what {
+    margin-bottom: 1.25rem;
+}
+
+.mentor__what>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 3.125rem;
+    margin-bottom: 4rem;
+}
+
+.mentor__what-img {
+    margin-bottom: 1.25rem;
+    max-width: 80rem;
+}
+
+.mentor__what-img>img {
+    max-width: 100%;
+}
+
+/* ----------------Mentor Impact---------------- */
+.mentor__impact-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.mentor__impact {
+    /* align-items: center; */
+    min-width: 100%;
+    margin-top: 3.3rem;
+}
+
+.mentor__impact-head {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    margin-bottom: 6rem;
+}
+
+.mentor__impact-head>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.mentor__impact-head>p {
+    color: #9798A0;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.mentor__impact>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+}
+
+.mentor__impact-card {
+    max-width: 100%;
+    height: 25rem;
+    border-radius: 0.9375rem;
+    border: 1px solid #FFF;
+    margin-bottom: 3.12rem;
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 80rem;
+    overflow: hidden;
+}
+
+.mentor__impact-card-left {
+    border-right: 1px solid white;
+    flex-basis: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.mentor__impact-card-left>div>h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .8rem;
+}
+
+.mentor__impact-card-left>div>p {
+    color: #9798A0;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.mentor__impact-card-left1 {
+    flex-basis: 33.33%;
+    border-bottom: 1px solid white;
+    padding: 1.5rem 2.94rem;
+}
+
+.mentor__impact-card-left2 {
+    flex-basis: 33.33%;
+    border-bottom: 1px solid white;
+    padding: 1.5rem 2.94rem;
+}
+
+.mentor__impact-card-left3 {
+    flex-basis: 33.33%;
+    padding: 1.5rem 2.94rem;
+}
+
+.mentor__impact-card-right {
+    flex-basis: 50%;
+    background: linear-gradient(180deg, #6E56D9 0%, #DE6C87 100%);
+    display: grid;
+    place-items: center;
+}
+
+/* roap of what mentors have to do */
+.mentor__map-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.mentor__map {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 5.08rem;
+    background-image: url('../../../public/assets/mentor-community.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mentor__map-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.mentor__map-head>h1 {
+    max-width: 59rem;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.mentor__map-head>div {
+    padding: .7rem 1rem;
+    border-radius: 0.9375rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: rgba(0, 0, 0, 0.85);
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.mentor__map-head>div:hover {
+    background: #000000;
+    color: rgba(255, 255, 255, 0.85);
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Ropa+Sans&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Ropa Sans', sans-serif; */
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{font-size: ;} */
+
+.body{
+    object-fit: fill;
+    background-color: black;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    display: block;
+    overflow: auto;
+    color: #0f1729;
+    background-color: transparent;
+    font-family: Gilroy,Arial,sans-serif;
+    position: relative;
+    font-size: 1;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.t-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.container-1280-width {
+    z-index: 1;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+    overflow: visible;
+}
+/* .w-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+/* .w-container:before, .w-container:after {
+    content: " ";
+    grid-area: 1/1/2/2;
+    display: table;
+} */
+
+
+  

@@ -1,0 +1,131 @@
+/* --------------------------------------- */
+.new-nav {
+    background-color: transparent;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+}
+.w-nav {
+    z-index: 1000;
+    background: #000000;
+    position: relative;
+}
+/* -------------------------------------- */
+
+.side-padders.relative {
+    z-index: 2;
+    position: relative;
+}
+.side-padders{
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* --------------------------------------- */
+.container-1280-width.nav-c {
+    max-width: 1310px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: flex;
+}
+.container-180-width {
+    z-index: 1;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+    overflow: visible;
+}
+/* --------------------------------------- */
+.nav-main-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__logo2 {
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    position: relative;
+    width: 170px;
+}
+.image-100 {
+    min-width: 100%;
+    display: inline-block;
+    position: static;
+}
+
+.navbar__logo2 > img {
+    min-width: 100%;
+    object-fit: fill;
+}
+
+/* --------------------------------------- */
+.nav-menu-6{
+    flex: 1;
+    position: static;
+    padding: auto;
+}
+.nav-link-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.nav-links-wrap{
+    grid-column-gap: 13px;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+}
+.nav-linking{
+    padding: 10px 0;
+    /* fontfamily */
+    font-size: 1.1rem;
+    font-weight: 500;
+    vertical-align: top;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+}
+/* --------------------------------------- */
+.nav-button-wrap {
+    background: linear-gradient(180deg, #52409E 0%, rgba(111, 87, 216, 0.73) 0.01%);
+    border-radius: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 9rem;
+    height: 2.3rem;
+    flex-shrink: 0;
+}
+
+.nav-auth-text {
+    color: #FFF;
+    /* font-size: 0.9rem; */
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------------------------- */
+.nav-active {
+    background-image: linear-gradient(to bottom, #6F57D8, #D56A8F);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

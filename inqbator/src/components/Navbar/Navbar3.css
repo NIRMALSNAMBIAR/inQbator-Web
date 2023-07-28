@@ -1,0 +1,120 @@
+.nav3__container {
+    height: 8.75rem;
+    z-index: 1;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: visible;
+    padding-left: 5.8%;
+    padding-right: 5.8%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    top: 0;
+    z-index: 1000;
+}
+.nav3 {
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ----------------------logo--------------------- */
+.nav3__logo {
+    cursor: pointer;
+}
+
+.nav3__logo>img {
+    max-width: 100%;
+}
+
+/* ----------------------Links--------------------- */
+.nav3__link {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.nav3__active.active{
+     background: linear-gradient(to right, #422E6A, #fff, #D76A8D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* explore mentor */
+.nav3__link-mentor {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    border-radius: 2.5rem;
+    border: 1px solid #FFF;
+    padding: .6rem 1rem;
+    transition: backgound-color ease-in-out 1s;
+}
+.nav3__link-mentor:hover {
+    background: linear-gradient(to right, #422E6A, #D76A8D);
+    transition: background-color ease-in-out 1s;
+}
+
+.nav3__link-mentor>h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+/* events */
+.nav3__link-events {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.3rem;
+}
+
+.nav3__link-events>a>h3 {
+    color: white;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.nav3__link-events>p {
+    padding: .2rem .4rem;
+    border-radius: 2.5rem;
+    background: linear-gradient(90deg, #DC5A2A 0%, rgba(220, 90, 42, 0.50) 100%);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+/* askmentor */
+.nav3__link-askmentor {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    white-space: nowrap;
+}
+.nav3__link-askmentor>p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Ropa+Sans&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Ropa Sans', sans-serif; */
+
+.card__main {
+    position: relative;
+    width: 385px;
+    height: 359px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #6956DE 66.67%, #302C4B 100%);
+}
+
+.card__number {
+    position: absolute;
+    top: 36px;
+    left: 24px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    color: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.30);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card__content {
+    padding: 144px 26px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card__button {
+    position: absolute;
+    right: 24px;
+    bottom: 36px;
+    min-width: fit-content;
+    height: 51px;
+    border-radius: 30px;
+    background-color: #FFF;
+    color: black;
+    box-shadow: -6px 6px 20px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    padding: 14px 27px;
+}
+
+.card__button>p {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.card__button>img {
+    width: 17.977px;
+}
