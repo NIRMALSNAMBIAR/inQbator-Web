@@ -1,1 +1,2 @@
 DATABASE=mongodb+srv://akshay_jangra:Adiyta12345@cluster0.wenn6ur.mongodb.net/Barter?retryWrites=true&w=majority
+node_modules
